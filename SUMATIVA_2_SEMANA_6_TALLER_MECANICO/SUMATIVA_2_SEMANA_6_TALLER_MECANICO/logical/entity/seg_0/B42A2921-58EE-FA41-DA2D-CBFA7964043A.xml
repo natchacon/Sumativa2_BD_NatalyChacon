@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B42A2921-58EE-FA41-DA2D-CBFA7964043A" name="TBL_CONTACTO_CLIENTE">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 20:56:35 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CONTACTO" id="71EF6C4E-A946-BBBA-019A-D210B0DAD9D0">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 20:56:45 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_CONTACTO" id="E2FBE3D5-8DA5-1547-8A47-6D398CDA365B">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 20:57:41 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL_CONTACTO" id="C7F220CF-1DE6-ED3B-956C-59D10E05CF71">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 20:58:02 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO_CONTACTO" id="2A8A8396-7D4F-7918-F6D3-F80BAA16426D">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 20:58:20 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CLIENTE" id="3B2055D0-3EE8-2845-EFFA-7CB0B408D2E6">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 21:00:19 UTC</createdTime>
+<generatorID>1E1DAB76-9FFE-54D1-52F9-4E5398DC8884</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<referedAttribute>E8965ECC-4CEC-2B98-5FD9-BC9CAE24A864</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BB5AB435-0091-1457-CB5B-F906A1ED110C" name="CONTACTO PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 20:58:55 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>71EF6C4E-A946-BBBA-019A-D210B0DAD9D0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

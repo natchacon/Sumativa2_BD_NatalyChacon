@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CLIENTE_EXTRANJERO" directorySegmentName="seg_0" id="E9E24A8E-2FCC-C84A-C862-1B3995834744">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 17:14:55 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>E9579919-8361-A86A-91A2-2B10D819C943</sourcePk>
+<targetPk>BCA5B807-5F53-A2CA-FFA9-51E5B5DC4C0C</targetPk>
+<dominantRole>310C15B6-30FA-45D0-7216-BBDE9FF7AAEB</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D18567FF-7D62-3E3C-F528-5E5035A9A9BD</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>310C15B6-30FA-45D0-7216-BBDE9FF7AAEB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

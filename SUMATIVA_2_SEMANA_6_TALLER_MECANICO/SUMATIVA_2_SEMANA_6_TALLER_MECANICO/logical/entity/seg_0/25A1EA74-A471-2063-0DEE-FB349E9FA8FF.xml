@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="25A1EA74-A471-2063-0DEE-FB349E9FA8FF" name="TBL_ORDEN_DE_SERVICIO">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 20:50:04 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ORDEN_SERVICIO" id="FA7AF898-CEB1-4AEA-0305-4D3B5CA97443">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 21:43:21 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_INGRESO" id="8749A7F3-A355-731E-F1BE-ED1A191FF6F7">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 21:43:45 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CLIENTE" id="AACF8C5E-5A4B-90ED-9D68-1A57C2097FB6">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 21:44:48 UTC</createdTime>
+<generatorID>06D166B2-7C75-D47B-926C-2AF70480B64C</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<referedAttribute>E8965ECC-4CEC-2B98-5FD9-BC9CAE24A864</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PLACA_PATENTE" id="FBDE8A26-0640-C431-C8D2-60359A339D93">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 21:45:28 UTC</createdTime>
+<generatorID>AC9FD1E9-DB00-EA70-D125-B37A8258174C</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<referedAttribute>A6631665-7682-7326-C8F1-62FDE6EDF08B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO_ORDEN" id="19563376-D916-F13D-B542-0721C83967B1">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 21:45:45 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>165531A5-B8D0-B99A-E3C3-4ED45DB37DCF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COSTO_TOTAL_MANO_OBRA" id="F9061672-31A2-7CAE-A464-3D088E4F3FBB">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:04:53 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COSTO_TOTAL_REPUESTOS" id="6D8487A3-1682-B86C-DCC3-E40F2F1D1DB9">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:05:13 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCUENTO" id="572DAB93-4EBE-56B4-A3BE-74CF6B9E2F61">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 21:47:27 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COSTO_TOTAL_ORDEN" id="9C7E8B27-5504-77CD-E884-73425C09C730">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 22:05:35 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_TERMINO_SERVICIO" id="E9CB0267-7E9A-C4FF-4508-509BA06DA71C">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 21:48:20 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_RETIRO_VEHICULO" id="E9A143EA-CF2E-9937-C26F-E58B86E0C9AD">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 21:48:42 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4D477D69-9638-BB6F-03AC-0F4C9493D01A" name="ORDEN_DE_ATENCION PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 21:43:42 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA7AF898-CEB1-4AEA-0305-4D3B5CA97443</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C0F37D4-6BFE-3018-4818-A54663857080" name="TBL_REPUESTO_MODELO_VEHICULO">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MODELO_VEHICULO" id="9FA0194A-9B30-50CF-CEA5-E5ABCE6F6675">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0C7C075-FE63-60C8-04A4-3757F20B7D0C" referredColumn="B21304E2-AC87-6F2A-EA4F-8780CF700BF9"/>
+</associations>
+</Column>
+<Column name="ID_REPUESTO" id="DD51A8B8-57B7-DE5D-7C6A-F9940E409FC4">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCF85025-645F-523A-CB4C-BBAF2E2309DF" referredColumn="1591693D-E555-68A2-1E77-95E05BC2E0FA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="921FD080-296F-D674-DEE6-78A86DA66AA1" name="TBL_REPUESTO_MODELO_VEHICULO_PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FA0194A-9B30-50CF-CEA5-E5ABCE6F6675"/>
+<colUsage columnID="DD51A8B8-57B7-DE5D-7C6A-F9940E409FC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D8DBCB8-2CC2-0325-4EE4-FD7B3E042BD5" name="TBL_REPUESTO_MODELO_VEHICULO_TBL_MODELO_VEHICULO_FK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>7A7786F0-3002-B9F3-DE0A-4E80DD4048BF</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FA0194A-9B30-50CF-CEA5-E5ABCE6F6675"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB07866F-1592-3A95-C97D-0BB0C5531457" name="TBL_REPUESTO_MODELO_VEHICULO_TBL_REPUESTO_FK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>7A7786F0-3002-B9F3-DE0A-4E80DD4048BF</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD51A8B8-57B7-DE5D-7C6A-F9940E409FC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

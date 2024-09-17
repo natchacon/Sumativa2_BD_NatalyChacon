@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F6A5E45-9613-9505-F92A-7049772545F0" name="TBL_DETLLE_SERVICIO_REPUESTO">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>22809D14-FF06-47FC-33BB-629ED75C4C39</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<ordsAlias>tbl_repuesto_servicio</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ORDEN_SERVICIO" id="20A0E495-8C09-BCED-3A34-8D4BF0D3451B">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>64730065-4167-4380-552B-880645852BAF</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="285A97A5-D20D-F923-B1DB-FD578354FA81" referredColumn="A43349AE-07FB-E5F2-E149-E63E0F020E65"/>
+</associations>
+</Column>
+<Column name="NUMERO_LINEA_ORDEN" id="1F224D25-71F6-76CC-3632-3EAC7BA4A67C">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>F2DF66A7-A924-B202-879A-7C64317DC3D0</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="285A97A5-D20D-F923-B1DB-FD578354FA81" referredColumn="BDC9E980-CAA1-AC8D-4E2A-F6C659B28974"/>
+</associations>
+</Column>
+<Column name="ID_REPUESTO" id="60913A3D-0105-D3B6-06A3-2EE1827E313A">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>17281ADC-7879-1EAD-C241-924EF5B07A05</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB75301C-CAAC-64D2-959D-86C34B77F211" referredColumn="1591693D-E555-68A2-1E77-95E05BC2E0FA"/>
+</associations>
+</Column>
+<Column name="COSTO_REPUESTO" id="50DB6832-3F16-BD6F-9603-A0E574B4C686">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>FAE615F2-1A2B-FB3A-DE8B-25D79995C28A</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBSERVACION" id="7546F83D-6FD9-5EA9-2A2F-B341A1C5DE2E">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>03B5BD24-7488-8686-F9AB-230C3D7C232C</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2082471-B6FA-C87B-5183-953755586F79" name="TBL_TRABAJO_PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>9FCF9DBC-10C7-F9A0-637F-DAB9571A9885</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60913A3D-0105-D3B6-06A3-2EE1827E313A"/>
+<colUsage columnID="20A0E495-8C09-BCED-3A34-8D4BF0D3451B"/>
+<colUsage columnID="1F224D25-71F6-76CC-3632-3EAC7BA4A67C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4ADEF45-8DC8-D416-1CB4-6CB1C101216A" name="DETALLE_SERVICIO_REPUESTOS">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>5CD117DB-7857-5C4C-E92D-1DA3CE4766CA</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20A0E495-8C09-BCED-3A34-8D4BF0D3451B"/>
+<colUsage columnID="1F224D25-71F6-76CC-3632-3EAC7BA4A67C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B8AF2C3-5575-EC49-0A0B-1134E54D3D5A" name="REPUESTO_REPUESTO_SERVICIO">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>5DAD5F89-2459-A4B7-7652-ABF28B467756</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60913A3D-0105-D3B6-06A3-2EE1827E313A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

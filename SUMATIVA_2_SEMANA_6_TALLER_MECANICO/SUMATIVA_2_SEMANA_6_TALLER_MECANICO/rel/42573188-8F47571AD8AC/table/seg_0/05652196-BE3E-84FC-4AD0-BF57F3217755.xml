@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05652196-BE3E-84FC-4AD0-BF57F3217755" name="TBL_MARCA_VEHICULO">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>1721B4BF-9579-7C50-B4A6-A7645C452C65</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MARCA_VEHICULO" id="EABC2715-9B48-6BA8-EA3E-9F55FD9180D9">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>D36D9876-9122-3EA7-35CB-0E9DF72B74E0</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_MARCA_VEHICULO" id="5041C7F9-D92E-D2AE-6AC2-43AA7F981DE6">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>B8BE05DF-B53A-DFCD-4330-EBC1A265336F</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="A4C7D02B-B98A-83EC-3DDD-61A3EC1FFE4D">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[1 Activo 0 Inactivo]]></commentInRDBMS>
+<generatorID>A6D8FEBC-93C8-981E-45B3-3525B1727ACA</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="234250D3-DE24-0D29-653D-436E6FDD75AF" name="MARCA_PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>C7C0C328-7541-7595-D3CD-982FFE949521</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EABC2715-9B48-6BA8-EA3E-9F55FD9180D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

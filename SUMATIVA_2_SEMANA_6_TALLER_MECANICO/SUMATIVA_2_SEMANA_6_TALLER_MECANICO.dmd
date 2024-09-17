@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SUMATIVA_2_SEMANA_6_TALLER_MECANICO" id="BC93FA54-DDB7-9B5D-BD58-5E558253F91D" version="3.5">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 20:49:11 UTC</createdTime>
+<ownerDesignName>TAREA_SEMANA_4_TALLER_MECANICO</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BC93FA54-DDB7-9B5D-BD58-5E558253F91D</designId>
+</OSDM_Design>

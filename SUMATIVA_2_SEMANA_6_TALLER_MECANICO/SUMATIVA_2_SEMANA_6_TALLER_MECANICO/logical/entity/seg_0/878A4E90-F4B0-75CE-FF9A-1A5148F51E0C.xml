@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="878A4E90-F4B0-75CE-FF9A-1A5148F51E0C" name="TBL_MARCA_REPUESTO">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 20:36:50 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_MARCA_REPUESTO" id="2DAA8D65-202F-742C-0579-B7BD153164D3">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 20:37:06 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_MARCA_REPUESTO" id="94D3178D-B4A4-5042-C69B-4CA5B7D652D6">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 20:37:26 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="8A4604A0-69CC-A39D-3AFB-6BC240D20AF0">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 20:37:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[1 Activo 0 Inactivo]]></commentInRDBMS>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="26F9E6F1-EE03-9C8D-EC9B-E29246A1A8D6" name="TBL_MARCA_REPUESTO PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 20:38:11 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2DAA8D65-202F-742C-0579-B7BD153164D3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

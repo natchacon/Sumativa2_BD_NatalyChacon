@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56C85C88-B0FA-0934-A7AD-7098038C947D" name="TBL_CLIENTE_CHILENO">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>EB5DE56E-3327-2F6B-A32E-6B82CAEA3192</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUT" id="C569C218-C7DA-1D73-2334-84E140F45020">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>A11CF5C7-C038-C4EC-797F-E38F9B0E0C9D</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DV" id="CDED7746-39B2-1C5E-9AD4-F6BAABCCFFC2">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>87175F8D-2E56-8EA9-24E7-BF7FCF1C7D8A</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CLIENTE" id="DA54B5BD-BFF6-A10A-B400-4D1A0FF1478E">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>CF07D6D5-EE70-6A31-13EC-03A77C67423A</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51B59285-40CE-50C0-09EE-FDBE2B018275" referredColumn="62F853F9-AC91-1223-DB44-D327960F51FA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4F68F94-F583-C74A-D16E-E62202798115" name="TBL_CLIENTE_CHILENO_PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>D1106E85-8FB8-8833-E66C-CA0F002CA10B</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C569C218-C7DA-1D73-2334-84E140F45020"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="825ABC63-A658-DE28-0D8F-A6B820F35AAC" name="TBL_CLIENTE_CHILENO__IDX">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0D360CC1-00DA-09CD-60D2-5DBE905C050E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="DA54B5BD-BFF6-A10A-B400-4D1A0FF1478E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB7F0578-CCBC-17C5-0ED0-6D868B63A90F" name="CLIENTE_CLIENTE_CHILENO">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>0D360CC1-00DA-09CD-60D2-5DBE905C050E</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA54B5BD-BFF6-A10A-B400-4D1A0FF1478E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

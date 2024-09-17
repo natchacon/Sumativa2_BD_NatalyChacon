@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VEHICULO_ORDEN_ATENCION" directorySegmentName="seg_0" id="AC9FD1E9-DB00-EA70-D125-B37A8258174C">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-02 21:23:02 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<sourcePk>21720EE2-3B39-D895-CB08-1B51B21946F1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1110F680-2123-7FB0-2009-EACFB3A6A986</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>25A1EA74-A471-2063-0DEE-FB349E9FA8FF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

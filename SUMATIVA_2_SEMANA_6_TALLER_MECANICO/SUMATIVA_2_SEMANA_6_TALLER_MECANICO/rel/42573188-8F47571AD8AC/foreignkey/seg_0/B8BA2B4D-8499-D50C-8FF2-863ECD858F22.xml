@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B8BA2B4D-8499-D50C-8FF2-863ECD858F22" containerWithKeyObject="7BFF84D1-D29A-0052-9787-8A4EDBC2B297" localFKIndex="5221C176-8AC9-7503-9D63-E176EEA34E55" name="TIPO_REPUESTO_REPUESTO">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>36DCB561-DCF2-DF10-3EFB-8A79195FE8EB</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<referredTableLongName>TBL_TIPO_REPUESTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F15BF334-B7A9-3793-CF25-BD5694770873</referredTableID>
+<keyObject>538CBE9E-99EC-99FD-D6FE-0D365892ED88</keyObject>
+<referredKeyID>538CBE9E-99EC-99FD-D6FE-0D365892ED88</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TIPO_REPUESTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D18567FF-7D62-3E3C-F528-5E5035A9A9BD" name="TBL_CLIENTE_EXTRANJERO">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 17:05:12 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NUMERO_DOCUMENTO" id="03726585-2DCE-1DC3-806E-540425C5F9AB">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 17:06:27 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_DOCUMENTO" id="A245B9F1-AC6F-74C3-462F-A8845663745C">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 17:05:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[PASAPORTE, DNI]]></commentInRDBMS>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PAIS" id="3F5FD056-4860-12A7-5BF3-033A5E95E3F6">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 17:10:07 UTC</createdTime>
+<generatorID>0F51338B-91F7-39BA-AC17-EEABC204D055</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<referedAttribute>C3D58D1C-0990-9214-5606-561D505BAB4E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CLIENTE" id="FAE46C2F-35D4-E85F-7008-138F379607CE">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 17:15:15 UTC</createdTime>
+<generatorID>E9E24A8E-2FCC-C84A-C862-1B3995834744</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<referedAttribute>E8965ECC-4CEC-2B98-5FD9-BC9CAE24A864</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="C577E627-5856-B5B1-E787-924C02980AE6">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 17:17:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[1 Activo 0 Inactivo]]></commentInRDBMS>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E9579919-8361-A86A-91A2-2B10D819C943" name="TBL_CLIENTE_EXTRANJERO PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 17:11:12 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03726585-2DCE-1DC3-806E-540425C5F9AB</attributeRef>
+<attributeRef>A245B9F1-AC6F-74C3-462F-A8845663745C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

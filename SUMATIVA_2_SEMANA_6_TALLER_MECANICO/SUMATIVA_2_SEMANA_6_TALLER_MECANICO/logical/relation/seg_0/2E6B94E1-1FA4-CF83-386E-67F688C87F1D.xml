@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TBL_TIPO_SERVICIO_MODELO_VEHICULO" directorySegmentName="seg_0" id="2E6B94E1-1FA4-CF83-386E-67F688C87F1D">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 21:43:44 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A923E2D5-729B-9D14-D9FF-635104BD2216</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>98AEFC06-04F4-8817-8912-EDE53EF16CC2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="COSTO_SERVICIO" id="4B07B4E3-2429-52D9-C1D1-C034B1F9DA9F">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 21:44:21 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</attribute>
+<attribute name="HH_SERVICIO" id="AA6F24D3-18D9-73E3-4A4C-67F160023AD2">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 21:44:38 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

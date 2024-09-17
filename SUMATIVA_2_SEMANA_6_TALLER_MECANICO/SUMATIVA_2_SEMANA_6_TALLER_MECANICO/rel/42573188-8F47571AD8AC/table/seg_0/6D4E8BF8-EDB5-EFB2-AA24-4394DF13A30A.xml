@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D4E8BF8-EDB5-EFB2-AA24-4394DF13A30A" name="TBL_CLIENTE_EXTRANJERO">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>D18567FF-7D62-3E3C-F528-5E5035A9A9BD</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO_DOCUMENTO" id="57CA329D-318A-7EAA-D4AA-67DAEB452548">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>03726585-2DCE-1DC3-806E-540425C5F9AB</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_DOCUMENTO" id="6450FA6E-81C4-819D-0021-864026C8151F">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[PASAPORTE, DNI]]></commentInRDBMS>
+<generatorID>A245B9F1-AC6F-74C3-462F-A8845663745C</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PAIS" id="0393EAB2-E635-4A7C-1216-C1412FA6152F">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>3F5FD056-4860-12A7-5BF3-033A5E95E3F6</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B1EB3CE-9D7C-E140-2836-44F4B46DFA4A" referredColumn="95C35C16-E7F9-5CE9-E57F-0C495EE76DD6"/>
+</associations>
+</Column>
+<Column name="ID_CLIENTE" id="B6D985AD-458A-7998-1DC7-FC133CEC701F">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>FAE46C2F-35D4-E85F-7008-138F379607CE</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D89183F-A751-A891-192B-978375BD3AB2" referredColumn="62F853F9-AC91-1223-DB44-D327960F51FA"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="3FE06553-A0C1-035C-8261-2CC32187C3CB">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[1 Activo 0 Inactivo]]></commentInRDBMS>
+<generatorID>C577E627-5856-B5B1-E787-924C02980AE6</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E4E2179-B265-623D-6303-E620EBDAA432" name="TBL_CLIENTE_EXTRANJERO_PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>E9579919-8361-A86A-91A2-2B10D819C943</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57CA329D-318A-7EAA-D4AA-67DAEB452548"/>
+<colUsage columnID="6450FA6E-81C4-819D-0021-864026C8151F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B034F5D3-D317-BE89-2438-DFEA4457FAEF" name="TBL_CLIENTE_EXTRANJERO__IDX">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E9E24A8E-2FCC-C84A-C862-1B3995834744</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B6D985AD-458A-7998-1DC7-FC133CEC701F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="424CD128-3850-B333-174B-406108F3CD4B" name="CLIENTE_EXTRANJERO">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>E9E24A8E-2FCC-C84A-C862-1B3995834744</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6D985AD-458A-7998-1DC7-FC133CEC701F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A6898E4-8BFB-5D1C-137B-6F8CE44E0393" name="NACIONALIDAD_CLIENTE">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>0F51338B-91F7-39BA-AC17-EEABC204D055</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0393EAB2-E635-4A7C-1216-C1412FA6152F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TIPO_REPUESTO_REPUESTO" directorySegmentName="seg_0" id="36DCB561-DCF2-DF10-3EFB-8A79195FE8EB">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 20:05:14 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<engineerTo>
+<item key="42573188-72BF-A671-9286-8F47571AD8AC" value="true"/>
+</engineerTo>
+<sourcePk>01145825-2E95-7BAD-9C23-295553BA56D0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8AA635BE-8D88-C212-0573-939CF4B4045D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7CD3C40A-1E8C-9853-31D5-08F7C3E922BB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

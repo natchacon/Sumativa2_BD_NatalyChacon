@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1706C161-C4C5-58FC-FEAC-BCEACBAB1816" containerWithKeyObject="A1F3211A-0D11-50C7-FF23-0FCA06BC7B7C" localFKIndex="BA63A86B-6F8B-7BC7-715B-879ED4C45E17" name="TBL_TIPO_SERVICIO_MODELO_VEHICULO_TBL_MODELO_VEHICULO_FK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-16 22:09:35 UTC</createdTime>
+<generatorID>2E6B94E1-1FA4-CF83-386E-67F688C87F1D</generatorID>
+<ownerDesignName>SUMATIVA_2_SEMANA_6_TALLER_MECANICO</ownerDesignName>
+<referredTableLongName>TBL_MODELO_VEHICULO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>087FA0D7-F23C-35D4-7340-3CAAE1F9555A</referredTableID>
+<keyObject>F63E9153-F36E-8B69-D283-B7FA9A80C029</keyObject>
+<referredKeyID>F63E9153-F36E-8B69-D283-B7FA9A80C029</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_MODELO_VEHICULO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
